@@ -1,0 +1,32 @@
+''' 
+ESTRUTURA DE REPETIÇÃO: FOR (PARA)
+REPETE UMA QUANTIDADE FINITA DE VEZES
+'''
+
+#for i in range(0,100,10): #(for= para ir de ate 100)
+#    print(i)
+
+'''
+OU PODEMOS FAZER DE OUTRA FORMA
+'''    
+
+#inicio = 100
+#fim = 5000
+#passos = 10
+
+#for i in range (inicio, fim, passos):
+#    print(i)
+
+'''
+OU PODEMOS FAZER DE OUTRA FORMA
+'''    
+
+#palavra: str = "Leonardo, mais sossegado que pai de mulher feia"
+
+#for i in palavra: 
+#    print(i)
+
+'''
+OU PODEMOS FAZER DE OUTRA FORMA
+'''    
+
