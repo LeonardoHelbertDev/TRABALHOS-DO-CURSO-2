@@ -1,0 +1,9 @@
+cesta: str = ["uva", "pera", "maça", "caju", "castanha"]
+opc: str =(input("Adivinhe a Fruta : "))
+
+for i in cesta:
+    if i == opc:
+     print("Acertou")
+     break
+else:
+        print("Nao encontrado")
