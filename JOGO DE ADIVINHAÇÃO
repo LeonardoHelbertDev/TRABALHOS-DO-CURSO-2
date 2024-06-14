@@ -1,0 +1,48 @@
+'''
+CRIE UM JOGO DE ADIVINHAÇÃO:
+EXISTEM 4 PALAVRAS EM UM VETOR E O USUARIO DEVE INFORMAR UMA, 
+SE ELE ACERTAR, EXIBA 'VOCE ACERTOU'
+
+ 1-CRIE O VETOR COM 4 PALAVRAS 
+ 2-CRIE UMA ENTRADA PARA RECEBER A DICA DO USUARIO
+ 3-CRIE UMA ESTRUTURA DE REPETIÇÃO FOR PARA PERCORRER O VETOR
+ 4-CRIE UMA ESTRUTURA CONDICIONAL COMPARANDO O VALOR LIDO
+COM O DIGITADO PELO USUARIO, SE IGUAL EXIBA "VOCE GANHOU" E COLOQUE UM BREAK.
+ 5- COLOQUE UM ELSE DIZENDO, "VOCE PERDEU, COLOQUE MAIS CREDITO"
+'''
+
+                  #ATIVIDADE
+'''
+print("Essas são as gatinhas. Paola,mariana,maju,carla")
+
+palavras: str = ["paola,mariana,maju,carla"]
+gatinha: str(input("Digite a mais gatinha da globo : "))
+
+for i in palavras:
+    print(i)
+    if palavras
+        print("Voce acertou")
+    else:
+        print("Voce perdeu insira mais creditos")
+
+'''
+            #CORREÇAO
+'''
+cesta: str = ["uva, pera, maça,caju, castanha"]
+opc: str =(input("Adivinhe a Fruta : "))
+
+for i in cesta:
+    if i == opc:
+     print("Acertou")
+    else:
+        print("Nao encontrado")
+'''
+
+             #ALTERNATIVO
+
+
+cesta: str = ["uva", "pera", "maça" ,"caju", "castanha"]
+opc: str =(input("Adivinhe a Fruta : "))
+
+X: bool = opc in cesta
+print(X)
